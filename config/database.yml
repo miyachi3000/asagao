@@ -1,18 +1,18 @@
-development:
+development: 
   adapter: sqlite3
   database: db/asagao_development.sqlite3
   pool: 5
   timeout: 5000
 
-test:
+test: 
   adapter: mysql2
   database: asagao_test
   username: root
-  password:
+  password: 
   host: 127.0.0.1
   encoding: utf8
 
-production:
+production: 
   adapter: mysql2
   database: asagao_production
   username: root

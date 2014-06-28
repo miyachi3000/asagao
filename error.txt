@@ -1,0 +1,7 @@
+Don't run Bundler as root. Bundler can ask for sudo if it is needed, and
+installing your bundle as root will break this application for all non-root
+users on this machine.
+Fetching gem metadata from https://rubygems.org/.........
+Fetching additional metadata from https://rubygems.org/..
+Unfortunately, a fatal error has occurred. Please see the Bundler
+troubleshooting documentation at http://bit.ly/bundler-issues. Thanks!
